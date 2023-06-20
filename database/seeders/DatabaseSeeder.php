@@ -317,125 +317,75 @@ class DatabaseSeeder extends Seeder
 
         DB::table('product_details')->insert([
             [
-                'product_id' => 3,
-                'size' => 'S',
-                'quantity' => 5,
+                'product_id' => 1,
+                'size' => '0,2l',
+                'quantity' => 10,
             ],
+         
+           
             [
-                'product_id' => 3,
-                'size' => 'M',
-                'quantity' => 5,
+                'product_id' => 1,
+                'size' => '0,3l',
+                'quantity' => 15,
             ],
-            [
-                'product_id' => 3,
-                'size' => 'L',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 3,
-                'size' => 'XS',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 3,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
-            [
-                'product_id' => 3,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
-
-
-
-            [
-                'product_id' => 4,
-                'size' => 'S',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 4,
-                'size' => 'M',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 4,
-                'size' => 'L',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 4,
-                'size' => 'XS',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 4,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
-            [
-                'product_id' => 4,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
+           
 
 
 
 
             [
-                'product_id' => 5,
-                'size' => 'S',
-                'quantity' => 5,
+                'product_id' => 1,
+                'size' => '0,5l',
+                'quantity' => 20,
             ],
-            [
-                'product_id' => 5,
-                'size' => 'M',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 5,
-                'size' => 'L',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 5,
-                'size' => 'XS',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 5,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
-            [
-                'product_id' => 5,
-                'size' => 'S',
-                'quantity' => 0,
-            ],
+            // [
+            //     'product_id' => 4,
+            //     'size' => '0,2l',
+            //     'quantity' => 20,
+            // ],
+            // [
+            //     'product_id' => 5,
+            //     'size' => '0,3l',
+            //     'quantity' => 20,
+            // ],
+            // [
+            //     'product_id' => 6,
+            //     'size' => '0,2l',
+            //     'quantity' => 5,
+            // ],
+            // [
+            //     'product_id' => 7,
+            //     'size' => '0,3',
+            //     'quantity' => 10,
+            // ],
+            // [
+            //     'product_id' => 8,
+            //     'size' => '0,5l',
+            //     'quantity' => 15,
+            // ],
 
 
 
-            [
-                'product_id' => 6,
-                'size' => 'S',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 6,
-                'size' => 'M',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 6,
-                'size' => 'L',
-                'quantity' => 5,
-            ],
-            [
-                'product_id' => 6,
-                'size' => 'XS',
-                'quantity' => 5,
-            ],
+            // [
+            //     'product_id' => 9,
+            //     'size' => '0,3l',
+            //     'quantity' => 10,
+            // ],
+            // [
+            //     'product_id' => 10,
+            //     'size' => '0,5l',
+            //     'quantity' => 10,
+            // ],
+            // [
+            //     'product_id' => 11,
+            //     'size' => '0,2l',
+            //     'quantity' => 5,
+            // ],
+            // [
+            //     'product_id' => 12,
+            //     'size' => '0,2l',
+            //     'quantity' => 10,
+            // ],
            
         ]);
 
